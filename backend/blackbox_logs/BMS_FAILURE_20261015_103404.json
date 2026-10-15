@@ -1,0 +1,495 @@
+{
+    "ecu": "BMS",
+    "trigger_fault": "SUB-SYSTEM DEGRADATION",
+    "timestamp": "20261015_103404",
+    "telemetry_history": [
+        {
+            "time": "2026-10-15T10:33:33.730611",
+            "v": 380.21,
+            "i": 44.95,
+            "t": 32.0,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:34.236936",
+            "v": 380.17,
+            "i": 44.43,
+            "t": 31.95,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:34.745002",
+            "v": 380.06,
+            "i": 44.46,
+            "t": 32.07,
+            "anomaly_pct": 5.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:35.250489",
+            "v": 380.04,
+            "i": 44.7,
+            "t": 32.02,
+            "anomaly_pct": 2.4,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:35.759677",
+            "v": 380.04,
+            "i": 44.82,
+            "t": 32.03,
+            "anomaly_pct": 3.3,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:36.264489",
+            "v": 380.02,
+            "i": 44.54,
+            "t": 31.93,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:36.771693",
+            "v": 380.25,
+            "i": 44.91,
+            "t": 31.94,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:37.281296",
+            "v": 380.11,
+            "i": 44.55,
+            "t": 31.99,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:37.785033",
+            "v": 379.88,
+            "i": 45.08,
+            "t": 31.98,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:38.291579",
+            "v": 380.14,
+            "i": 44.79,
+            "t": 31.92,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:38.797910",
+            "v": 379.79,
+            "i": 44.43,
+            "t": 31.99,
+            "anomaly_pct": 1.0,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:39.301441",
+            "v": 380.04,
+            "i": 44.62,
+            "t": 32.0,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:39.805056",
+            "v": 379.75,
+            "i": 44.83,
+            "t": 31.94,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:40.312546",
+            "v": 379.93,
+            "i": 44.86,
+            "t": 31.98,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:40.813754",
+            "v": 380.05,
+            "i": 45.03,
+            "t": 32.06,
+            "anomaly_pct": 5.3,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:41.319791",
+            "v": 380.22,
+            "i": 44.87,
+            "t": 32.04,
+            "anomaly_pct": 3.6,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:41.833474",
+            "v": 380.0,
+            "i": 45.5,
+            "t": 32.01,
+            "anomaly_pct": 1.4,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:42.335594",
+            "v": 380.07,
+            "i": 44.9,
+            "t": 31.94,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:42.840325",
+            "v": 379.92,
+            "i": 45.53,
+            "t": 32.04,
+            "anomaly_pct": 3.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:43.346872",
+            "v": 379.73,
+            "i": 44.48,
+            "t": 31.94,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:43.874644",
+            "v": 379.72,
+            "i": 45.52,
+            "t": 31.93,
+            "anomaly_pct": 0.6,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:44.382782",
+            "v": 380.11,
+            "i": 45.15,
+            "t": 32.05,
+            "anomaly_pct": 4.1,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:44.889094",
+            "v": 380.16,
+            "i": 45.25,
+            "t": 31.95,
+            "anomaly_pct": 0.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:45.395927",
+            "v": 380.05,
+            "i": 44.65,
+            "t": 31.99,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:45.902377",
+            "v": 380.25,
+            "i": 44.88,
+            "t": 32.02,
+            "anomaly_pct": 2.1,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:46.408720",
+            "v": 380.16,
+            "i": 44.42,
+            "t": 32.02,
+            "anomaly_pct": 2.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:46.910624",
+            "v": 380.02,
+            "i": 44.72,
+            "t": 32.06,
+            "anomaly_pct": 5.6,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:47.417209",
+            "v": 380.24,
+            "i": 45.19,
+            "t": 31.98,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:47.923513",
+            "v": 380.21,
+            "i": 44.53,
+            "t": 31.95,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:48.431321",
+            "v": 380.19,
+            "i": 45.25,
+            "t": 32.06,
+            "anomaly_pct": 5.1,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:48.935762",
+            "v": 379.95,
+            "i": 45.07,
+            "t": 32.0,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:49.445734",
+            "v": 380.01,
+            "i": 45.5,
+            "t": 32.05,
+            "anomaly_pct": 4.2,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:49.951304",
+            "v": 379.72,
+            "i": 45.05,
+            "t": 31.94,
+            "anomaly_pct": 0.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:50.457168",
+            "v": 379.76,
+            "i": 45.34,
+            "t": 31.98,
+            "anomaly_pct": 0.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:50.963878",
+            "v": 379.97,
+            "i": 44.85,
+            "t": 32.01,
+            "anomaly_pct": 1.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:51.470625",
+            "v": 379.96,
+            "i": 44.63,
+            "t": 32.05,
+            "anomaly_pct": 4.2,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:51.977114",
+            "v": 380.05,
+            "i": 44.97,
+            "t": 32.0,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:52.478405",
+            "v": 380.14,
+            "i": 44.63,
+            "t": 32.02,
+            "anomaly_pct": 2.3,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:52.990960",
+            "v": 380.3,
+            "i": 45.5,
+            "t": 32.02,
+            "anomaly_pct": 2.0,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:53.500133",
+            "v": 379.93,
+            "i": 44.57,
+            "t": 32.05,
+            "anomaly_pct": 4.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:54.005084",
+            "v": 379.76,
+            "i": 45.36,
+            "t": 32.04,
+            "anomaly_pct": 3.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:54.512148",
+            "v": 379.71,
+            "i": 45.16,
+            "t": 32.08,
+            "anomaly_pct": 6.6,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:55.013029",
+            "v": 379.82,
+            "i": 63.86,
+            "t": 32.04,
+            "anomaly_pct": 5.4,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:55.519355",
+            "v": 380.12,
+            "i": 80.08,
+            "t": 32.05,
+            "anomaly_pct": 8.5,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:56.025839",
+            "v": 380.02,
+            "i": 92.44,
+            "t": 31.93,
+            "anomaly_pct": 7.6,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:56.532498",
+            "v": 380.26,
+            "i": 102.42,
+            "t": 31.92,
+            "anomaly_pct": 9.4,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:57.040709",
+            "v": 379.99,
+            "i": 110.06,
+            "t": 31.97,
+            "anomaly_pct": 10.6,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:57.546494",
+            "v": 379.81,
+            "i": 117.0,
+            "t": 32.06,
+            "anomaly_pct": 15.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:58.053043",
+            "v": 380.04,
+            "i": 122.04,
+            "t": 31.94,
+            "anomaly_pct": 12.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:58.559905",
+            "v": 379.73,
+            "i": 125.69,
+            "t": 32.06,
+            "anomaly_pct": 17.2,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:59.067567",
+            "v": 379.84,
+            "i": 128.76,
+            "t": 32.01,
+            "anomaly_pct": 14.4,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:33:59.574540",
+            "v": 379.78,
+            "i": 132.18,
+            "t": 32.06,
+            "anomaly_pct": 18.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:00.080955",
+            "v": 380.3,
+            "i": 133.91,
+            "t": 32.04,
+            "anomaly_pct": 17.2,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:00.587300",
+            "v": 380.12,
+            "i": 134.88,
+            "t": 31.97,
+            "anomaly_pct": 15.0,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:01.094471",
+            "v": 380.11,
+            "i": 136.59,
+            "t": 32.05,
+            "anomaly_pct": 18.8,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:01.601552",
+            "v": 379.91,
+            "i": 156.03,
+            "t": 31.97,
+            "anomaly_pct": 18.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:02.109351",
+            "v": 380.29,
+            "i": 172.39,
+            "t": 32.08,
+            "anomaly_pct": 26.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:02.616644",
+            "v": 379.98,
+            "i": 184.67,
+            "t": 32.03,
+            "anomaly_pct": 32.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T10:34:03.122767",
+            "v": 380.22,
+            "i": 194.65,
+            "t": 31.97,
+            "anomaly_pct": 47.5,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T10:34:03.629215",
+            "v": 380.16,
+            "i": 203.08,
+            "t": 31.95,
+            "anomaly_pct": 61.7,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T10:34:04.135327",
+            "v": 379.92,
+            "i": 209.09,
+            "t": 31.96,
+            "anomaly_pct": 71.7,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        }
+    ]
+}
