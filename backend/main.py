@@ -10,6 +10,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+import mysql.connector
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="../frontend"), name="static")
@@ -23,7 +24,6 @@ class ComprehensiveDigitalTwin:
             "MCU": {"v": 380.0, "i": 110.0, "t": 50.0},
             "OBC": {"v": 230.0, "i": 16.0, "t": 40.0}
         }
-        # Baseline lifespan of Automotive Grade hardware is ~12,000 driving hours
         self.current = {
             "BMS": {"v": 380.0, "i": 45.0, "t": 32.0, "last_t": 32.0, "rul": 12000.0},
             "MCU": {"v": 380.0, "i": 110.0, "t": 50.0, "last_t": 50.0, "rul": 12000.0},
@@ -34,6 +34,12 @@ class ComprehensiveDigitalTwin:
             "MCU": {"nom_v": 380.0, "v_tol": 30.0, "max_i": 250.0, "nom_t": 35.0, "k_heat": 0.12},
             "OBC": {"nom_v": 230.0, "v_tol": 18.0, "max_i": 32.0,  "nom_t": 30.0, "k_heat": 0.25}
         }
+        
+        # --- PERMANENT HEALTH & CUMULATIVE STRESS ENGINE ---
+        self.soh = {"BMS": 100.0, "MCU": 100.0, "OBC": 100.0}
+        self.stress_cycles = {"BMS": 0, "MCU": 0, "OBC": 0}
+        self.in_high_stress = {"BMS": False, "MCU": False, "OBC": False}
+        self.last_db_health_save = 0
         
         self.blackbox_buffer = {
             "BMS": deque(maxlen=240),
@@ -58,6 +64,40 @@ class ComprehensiveDigitalTwin:
             json.dump(data, f, indent=4)
         print(f"\n[!] CRITICAL FAILURE DETECTED: {fault_mode}")
         print(f"[*] BLACK BOX SAVED: Past 2 minutes of {ecu} data written to {filename}\n")
+
+    def log_sql_failure(self, ecu, fault_mode, anomaly_pct, rul_hours):
+        try:
+            db = mysql.connector.connect(
+                host="localhost", user="root", password="", database="ev_digital_twin"
+            )
+            cursor = db.cursor()
+            sql = """INSERT INTO failure_logs 
+                     (timestamp, ecu_target, fault_mode, anomaly_score, rul_hours) 
+                     VALUES (%s, %s, %s, %s, %s)"""
+            cursor.execute(sql, (datetime.now(), ecu, fault_mode, anomaly_pct, rul_hours))
+            db.commit()
+            db.close()
+        except Exception as e:
+            pass
+
+    def log_sql_health(self, vehicle_soh, status, total_stress):
+        try:
+            db = mysql.connector.connect(
+                host="localhost", user="root", password="", database="ev_digital_twin"
+            )
+            cursor = db.cursor()
+            sql = """INSERT INTO vehicle_health_logs 
+                     (timestamp, vehicle_soh, bms_soh, mcu_soh, obc_soh, stress_cycles_count, health_status) 
+                     VALUES (%s, %s, %s, %s, %s, %s, %s)"""
+            cursor.execute(sql, (
+                datetime.now(), vehicle_soh, 
+                self.soh["BMS"], self.soh["MCU"], self.soh["OBC"], 
+                total_stress, status
+            ))
+            db.commit()
+            db.close()
+        except Exception:
+            pass
 
     def step(self, ecu):
         alpha = 0.2
@@ -92,20 +132,29 @@ class ComprehensiveDigitalTwin:
         elif anomaly_pct > 35.0: fault_mode = "SUB-SYSTEM DEGRADATION"
         else: fault_mode = "SYSTEM NOMINAL"
 
-        # --- FIX: HIGH-ACCURACY EXPONENTIAL DEGRADATION (ARRHENIUS-INSPIRED) ---
-        # 0% Anomaly   = ~12,000 Hours (Years of driving)
-        # 50% Anomaly  = ~3 Hours (Immediate Maintenance Required)
-        # 100% Anomaly = ~0.001 Hours (Fails in 3.6 Seconds)
+        # --- CUMULATIVE SOH WEAR ENGINE (STRESS > 80%) ---
+        if anomaly_pct >= 80.0:
+            if not self.in_high_stress[ecu]:
+                self.stress_cycles[ecu] += 1
+                self.in_high_stress[ecu] = True
+            # Burn permanent health while held in high stress zone
+            wear_penalty = 0.08 + ((anomaly_pct - 80.0) * 0.015)
+            self.soh[ecu] = max(10.0, round(self.soh[ecu] - wear_penalty, 3))
+        elif anomaly_pct < 65.0:
+            self.in_high_stress[ecu] = False
+
         decay_rate = 0.85
         raw_rul = 12000.0 * (decay_rate ** anomaly_pct)
-        
-        # Asymmetric smoothing: Hardware breaks fast under stress, but "heals" slowly
-        if raw_rul < c["rul"]:
-            c["rul"] += (raw_rul - c["rul"]) * 0.15 
-        else:
-            c["rul"] += (raw_rul - c["rul"]) * 0.02
-            
+        # SOH penalizes maximum attainable RUL
+        max_possible_rul = 12000.0 * (self.soh[ecu] / 100.0)
+        raw_rul = min(raw_rul, max_possible_rul)
+
+        if raw_rul < c["rul"]: c["rul"] += (raw_rul - c["rul"]) * 0.15 
+        else: c["rul"] += (raw_rul - c["rul"]) * 0.02
         rul_hours = round(c["rul"], 4)
+
+        if anomaly_pct > 20.0:
+            self.log_sql_failure(ecu, fault_mode, anomaly_pct, rul_hours)
 
         frame_data = {
             "time": datetime.now().isoformat(), "v": round(live_v, 2),
@@ -127,7 +176,32 @@ class ComprehensiveDigitalTwin:
         return {
             "v": round(live_v, 1), "i": round(live_i, 1), "t": round(live_t, 1),
             "expected_t": round(expected_t, 1), "res_t": round(thermal_residual, 2), "dt_rate": round(dt_rate, 2),
-            "anomaly": anomaly_pct, "rul_hours": rul_hours, "fault_mode": fault_mode, "raw_hex": hex_str
+            "anomaly": anomaly_pct, "rul_hours": rul_hours, "fault_mode": fault_mode, "raw_hex": hex_str,
+            "soh": round(self.soh[ecu], 1), "stress_count": self.stress_cycles[ecu]
+        }
+
+    def get_fleet_health(self):
+        # Weighted overall vehicle health
+        v_soh = round((self.soh["BMS"] * 0.45) + (self.soh["MCU"] * 0.35) + (self.soh["OBC"] * 0.20), 1)
+        total_stress = sum(self.stress_cycles.values())
+
+        if v_soh > 88.0: status = "OPTIMAL HEALTH"
+        elif v_soh > 70.0: status = "ACCELERATED WEAR"
+        elif v_soh > 50.0: status = "SERVICE REQUIRED"
+        else: status = "CRITICAL DEGRADATION"
+
+        now = time.time()
+        if now - self.last_db_health_save > 15:
+            self.last_db_health_save = now
+            self.log_sql_health(v_soh, status, total_stress)
+
+        return {
+            "vehicle_soh": v_soh,
+            "bms_soh": round(self.soh["BMS"], 1),
+            "mcu_soh": round(self.soh["MCU"], 1),
+            "obc_soh": round(self.soh["OBC"], 1),
+            "total_stress_events": total_stress,
+            "status": status
         }
 
 twin = ComprehensiveDigitalTwin()
@@ -154,7 +228,12 @@ async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
     try:
         while True:
-            await websocket.send_json({"BMS": twin.step("BMS"), "MCU": twin.step("MCU"), "OBC": twin.step("OBC")})
+            await websocket.send_json({
+                "BMS": twin.step("BMS"),
+                "MCU": twin.step("MCU"),
+                "OBC": twin.step("OBC"),
+                "HEALTH": twin.get_fleet_health()
+            })
             await asyncio.sleep(0.5)
     except WebSocketDisconnect: pass
 

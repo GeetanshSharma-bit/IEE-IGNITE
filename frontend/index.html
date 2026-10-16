@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-  <body>
 
   <!-- DYNAMIC ANIMATED ALERT POPUP -->
   <div id="alert-popup" class="alert-popup hidden">
@@ -31,15 +30,11 @@
   </div>
 
   <div class="scada-shell">
-  
-
-  <div class="scada-shell">
     
     <!-- SIDE NAVIGATION -->
     <aside class="sidebar" id="sidebar">
       <div class="brand">
         <div class="brand-left">
-          <!-- Professional Isometric Cube Logo -->
           <div class="brand-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
@@ -60,13 +55,9 @@
       <nav class="ecu-selector">
         
         <button class="nav-btn active" id="btn-BMS" onclick="selectECU('BMS')" title="BMS Battery Core">
-          <!-- Battery Icon -->
           <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect>
-            <line x1="22" y1="11" x2="22" y2="13"></line>
-            <line x1="6" y1="12" x2="6" y2="12"></line>
-            <line x1="10" y1="12" x2="10" y2="12"></line>
-            <line x1="14" y1="12" x2="14" y2="12"></line>
+            <line x1="22" y1="11" x2="22" y2="13"></line><line x1="6" y1="12" x2="6" y2="12"></line><line x1="10" y1="12" x2="10" y2="12"></line><line x1="14" y1="12" x2="14" y2="12"></line>
           </svg>
           <div class="btn-meta">
             <span class="btn-name">BMS Core</span>
@@ -75,18 +66,10 @@
         </button>
 
         <button class="nav-btn" id="btn-MCU" onclick="selectECU('MCU')" title="MCU Traction Inverter">
-          <!-- Microchip CPU Icon -->
           <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
-            <rect x="9" y="9" width="6" height="6"></rect>
-            <line x1="9" y1="1" x2="9" y2="4"></line>
-            <line x1="15" y1="1" x2="15" y2="4"></line>
-            <line x1="9" y1="20" x2="9" y2="23"></line>
-            <line x1="15" y1="20" x2="15" y2="23"></line>
-            <line x1="20" y1="9" x2="23" y2="9"></line>
-            <line x1="20" y1="14" x2="23" y2="14"></line>
-            <line x1="1" y1="9" x2="4" y2="9"></line>
-            <line x1="1" y1="14" x2="4" y2="14"></line>
+            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect>
+            <line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line>
+            <line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line>
           </svg>
           <div class="btn-meta">
             <span class="btn-name">MCU Inverter</span>
@@ -95,7 +78,6 @@
         </button>
 
         <button class="nav-btn" id="btn-OBC" onclick="selectECU('OBC')" title="OBC Charger Ingress">
-          <!-- High Voltage Zap Icon -->
           <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
           </svg>
@@ -105,20 +87,40 @@
           </div>
         </button>
 
+        <div class="sidebar-section-title" style="margin-top: 1rem;">INTELLIGENCE & HEALTH</div>
+        
+        <button class="nav-btn" id="btn-health" onclick="selectHealth()" title="Vehicle Life & Health Diagnostics">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+          <div class="btn-meta">
+            <span class="btn-name">Health Predictor</span>
+            <span class="btn-sub">Cumulative SOH Degradation</span>
+          </div>
+        </button>
+
+        <button class="nav-btn" id="btn-history" onclick="selectHistory()" title="Session Failure Logs">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <div class="btn-meta">
+            <span class="btn-name">Critical Logs</span>
+            <span class="btn-sub">System Event Registry</span>
+          </div>
+        </button>
+
       </nav>
 
-      <!-- CAN TERMINAL -->
       <div class="can-box">
-        <div class="can-header">
-          <span>CAN 2.0A PACKET BUS</span>
-          <span class="live-dot"></span>
-        </div>
+        <div class="can-header"><span>CAN 2.0A PACKET BUS</span><span class="live-dot"></span></div>
         <div class="can-hex" id="can-feed">0E D8 04 B0 01 54 00 A2</div>
         <div class="can-sub" id="can-sub">DLC: 8 • 500 kbps • Baud Locked</div>
       </div>
     </aside>
 
-    <!-- MAIN DASHBOARD -->
+    <!-- MAIN VIEWPORT -->
     <main class="viewport">
       
       <!-- TOP STATUS KPI BAR -->
@@ -129,7 +131,6 @@
         </div>
         <div class="kpi-block">
           <span class="kpi-label">AI Fault Diagnostic Mode</span>
-          <!-- Updated text here -->
           <span class="kpi-val text-green" id="kpi-fault">SYSTEM NOMINAL</span>
         </div>
         <div class="kpi-block">
@@ -138,118 +139,199 @@
         </div>
         <div class="kpi-block">
           <span class="kpi-label">Estimated Time-To-Breakdown</span>
-          <span class="kpi-val text-cyan" id="kpi-rul">1200.0 Hrs</span>
+          <span class="kpi-val text-cyan" id="kpi-rul">12000.0 Hrs</span>
         </div>
       </header>
 
-      <!-- 3D DIGITAL TWIN VIEWER -->
-      <section class="twin-stage">
-        <div class="stage-tag">INTERACTIVE DIGITAL TWIN • CLICK PARTS OR ROTATE</div>
-        <div id="canvas-container"></div>
-        <div class="stage-overlay">
-          <div class="overlay-badge" id="bms-badge">Floorboard: BMS [Click]</div>
-          <div class="overlay-badge" id="mcu-badge">Rear Hub: MCU [Click]</div>
-          <div class="overlay-badge" id="obc-badge">Sub-Seat: OBC [Click]</div>
-        </div>
-      </section>
+      <!-- VIEW 1: LIVE DASHBOARD -->
+      <div id="dashboard-view" style="display: flex; flex-direction: column; gap: 1.15rem; flex-grow: 1;">
+        <section class="twin-stage">
+          <div class="stage-tag">INTERACTIVE DIGITAL TWIN • CLICK PARTS OR ROTATE</div>
+          <div id="canvas-container"></div>
+          <div class="stage-overlay">
+            <div class="overlay-badge" id="bms-badge">Floorboard: BMS [Click]</div>
+            <div class="overlay-badge" id="mcu-badge">Rear Hub: MCU [Click]</div>
+            <div class="overlay-badge" id="obc-badge">Sub-Seat: OBC [Click]</div>
+          </div>
+        </section>
 
-      <!-- CONTROL & TELEMETRY CHARTS -->
-      <section class="telemetry-deck">
-        
-        <div class="panel control-panel">
+        <section class="telemetry-deck">
+          <div class="panel control-panel">
+            <div class="panel-header">
+              <h3>Manual Fault Ingress (ECU Target)</h3>
+              <div style="display: flex; gap: 0.5rem; align-items: center;">
+                <button id="btn-blackbox" class="chip btn-blackbox" title="Download past 2 mins of raw data">⏺ CRITICAL LOGS</button>
+                <span class="chip">Hardware Loop</span>
+              </div>
+            </div>
+
+            <div class="slider-field">
+              <div class="field-info">
+                <span class="field-title">Bus Potential (Voltage)</span>
+                <span class="field-val mono text-blue" id="val-v">380.0 V</span>
+              </div>
+              <input type="range" id="slider-v" min="280" max="460" step="1" value="380">
+            </div>
+
+            <div class="slider-field">
+              <div class="field-info">
+                <span class="field-title">Load Current (Amperage)</span>
+                <span class="field-val mono text-blue" id="val-i">45.0 A</span>
+              </div>
+              <input type="range" id="slider-i" min="0" max="280" step="1" value="45">
+            </div>
+
+            <div class="slider-field">
+              <div class="field-info">
+                <span class="field-title">Sensor Core Temperature</span>
+                <span class="field-val mono text-blue" id="val-t">32.0 °C</span>
+              </div>
+              <input type="range" id="slider-t" min="15" max="95" step="0.5" value="32">
+            </div>
+
+            <div class="ml-vector-card">
+              <div class="vector-title">AI Extracted Residual Vectors</div>
+              <div class="vector-row">
+                <span>Expected Physics Model Temp</span>
+                <span class="mono" id="vec-exp-t">-- °C</span>
+              </div>
+              <div class="vector-row">
+                <span>Thermal Residual Gap (ΔT)</span>
+                <span class="mono" id="vec-res-t">-- °C</span>
+              </div>
+              <div class="vector-row">
+                <span>Dynamic Rise Velocity (dT/dt)</span>
+                <span class="mono" id="vec-dt-rate">-- °C/s</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Current Load Trajectory (Amperes)</h3>
+              <span class="chip">Real-Time Load</span>
+            </div>
+            <div class="chart-canvas-box"><canvas id="chart-current"></canvas></div>
+          </div>
+
+          <div class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Bus Voltage Ingress (Volts)</h3>
+              <span class="chip">Potential Monitor</span>
+            </div>
+            <div class="chart-canvas-box"><canvas id="chart-voltage"></canvas></div>
+          </div>
+
+          <div class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Thermal Dynamics vs Twin Model (°C)</h3>
+              <span class="chip">Residual Differential</span>
+            </div>
+            <div class="chart-canvas-box"><canvas id="chart-thermal"></canvas></div>
+          </div>
+
+          <div class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Degradation & RUL Breakdown Horizon</h3>
+              <span class="chip">Predictive Horizon</span>
+            </div>
+            <div class="chart-canvas-box"><canvas id="chart-rul"></canvas></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- VIEW 2: VEHICLE HEALTH DASHBOARD -->
+      <div id="health-view" style="display: none; flex-direction: column; gap: 1.25rem; flex-grow: 1;">
+        <div class="health-kpi-grid">
+          <div class="panel health-stat-card">
+            <span class="kpi-label">Overall Vehicle Health (SOH)</span>
+            <div class="health-score-val" id="health-vehicle-soh">100.0%</div>
+            <span class="badge badge-resolved" id="health-status-badge">OPTIMAL HEALTH</span>
+          </div>
+
+          <div class="panel health-stat-card">
+            <span class="kpi-label">High-Stress Cycles (>80% Risk)</span>
+            <div class="health-score-val text-red" id="health-stress-count">0</div>
+            <span class="health-subtext">Cumulative Critical Excursions</span>
+          </div>
+
+          <div class="panel health-stat-card">
+            <span class="kpi-label">Degradation Acceleration Rate</span>
+            <div class="health-score-val text-amber" id="health-wear-rate">1.0x</div>
+            <span class="health-subtext">Calculated vs Factory Baseline</span>
+          </div>
+        </div>
+
+        <div class="panel" style="padding: 1.5rem;">
           <div class="panel-header">
-            <h3>Manual Fault Ingress (ECU Target)</h3>
-            <div style="display: flex; gap: 0.5rem; align-items: center;">
-              <!-- Black Box Button -->
-              <button id="btn-blackbox" class="chip btn-blackbox" title="Download past 2 mins of raw data">
-                ⏺ Critical Data
-              </button>
-              <span class="chip">Hardware Loop</span>
-            </div>
+            <h3>Subsystem State of Health (SOH) Breakdown</h3>
+            <span class="chip">Electrochemical & Mechanical Wear</span>
           </div>
 
-          <div class="slider-field">
-            <div class="field-info">
-              <span class="field-title">Bus Potential (Voltage)</span>
-              <span class="field-val mono text-blue" id="val-v">380.0 V</span>
+          <div class="health-progress-wrap">
+            <div class="health-item">
+              <div class="health-item-meta">
+                <span><strong>BMS Battery Pack</strong> (Electrode & Separator Fatigue)</span>
+                <span class="mono" id="soh-bar-bms-val">100.0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" id="soh-bar-bms" style="width: 100%;"></div></div>
             </div>
-            <input type="range" id="slider-v" min="280" max="460" step="1" value="380">
-          </div>
 
-          <div class="slider-field">
-            <div class="field-info">
-              <span class="field-title">Load Current (Amperage)</span>
-              <span class="field-val mono text-blue" id="val-i">45.0 A</span>
+            <div class="health-item">
+              <div class="health-item-meta">
+                <span><strong>MCU Traction Inverter</strong> (IGBT Thermal Cycling Degradation)</span>
+                <span class="mono" id="soh-bar-mcu-val">100.0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" id="soh-bar-mcu" style="width: 100%;"></div></div>
             </div>
-            <input type="range" id="slider-i" min="0" max="280" step="1" value="45">
-          </div>
 
-          <div class="slider-field">
-            <div class="field-info">
-              <span class="field-title">Sensor Core Temperature</span>
-              <span class="field-val mono text-blue" id="val-t">32.0 °C</span>
-            </div>
-            <input type="range" id="slider-t" min="15" max="95" step="0.5" value="32">
-          </div>
-
-          <div class="ml-vector-card">
-            <div class="vector-title">AI Extracted Residual Vectors</div>
-            <div class="vector-row">
-              <span>Expected Physics Model Temp</span>
-              <span class="mono" id="vec-exp-t">-- °C</span>
-            </div>
-            <div class="vector-row">
-              <span>Thermal Residual Gap (ΔT)</span>
-              <span class="mono" id="vec-res-t">-- °C</span>
-            </div>
-            <div class="vector-row">
-              <span>Dynamic Rise Velocity (dT/dt)</span>
-              <span class="mono" id="vec-dt-rate">-- °C/s</span>
+            <div class="health-item">
+              <div class="health-item-meta">
+                <span><strong>OBC Onboard Charger</strong> (Dielectric Capacitor Ageing)</span>
+                <span class="mono" id="soh-bar-obc-val">100.0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" id="soh-bar-obc" style="width: 100%;"></div></div>
             </div>
           </div>
         </div>
 
-        <div class="panel chart-panel">
+        <div class="panel" style="flex-grow: 1; min-height: 240px;">
           <div class="panel-header">
-            <h3>Current Load Trajectory (Amperes)</h3>
-            <span class="chip">Real-Time Load</span>
+            <h3>Cumulative Fleet SOH Degradation Trajectory</h3>
+            <span class="chip">Live Arrhenius Stress Tracking</span>
           </div>
-          <div class="chart-canvas-box">
-            <canvas id="chart-current"></canvas>
-          </div>
+          <div class="chart-canvas-box"><canvas id="chart-health-timeline"></canvas></div>
         </div>
+      </div>
 
-        <div class="panel chart-panel">
+      <!-- VIEW 3: FAILURE HISTORY LOGS -->
+      <div id="history-view" style="display: none; flex-direction: column; flex-grow: 1;">
+        <div class="panel" style="flex-grow: 1; overflow-y: auto;">
           <div class="panel-header">
-            <h3>Bus Voltage Ingress (Volts)</h3>
-            <span class="chip">Potential Monitor</span>
+            <h3>Global Anomaly & Failure Registry</h3>
+            <span class="chip">Persistent Session Logs</span>
           </div>
-          <div class="chart-canvas-box">
-            <canvas id="chart-voltage"></canvas>
-          </div>
-        </div>
-
-        <div class="panel chart-panel">
-          <div class="panel-header">
-            <h3>Thermal Dynamics vs Twin Model (°C)</h3>
-            <span class="chip">Residual Differential</span>
-          </div>
-          <div class="chart-canvas-box">
-            <canvas id="chart-thermal"></canvas>
-          </div>
-        </div>
-
-        <div class="panel chart-panel">
-          <div class="panel-header">
-            <h3>Degradation & RUL Breakdown Horizon</h3>
-            <span class="chip">Predictive Horizon</span>
-          </div>
-          <div class="chart-canvas-box">
-            <canvas id="chart-rul"></canvas>
+          <div style="overflow-x: auto;">
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th>Timestamp</th>
+                  <th>Target ECU</th>
+                  <th>Diagnostic Mode</th>
+                  <th>Severity Risk</th>
+                  <th>Projected RUL</th>
+                </tr>
+              </thead>
+              <tbody id="history-tbody">
+                <tr>
+                  <td colspan="5" style="text-align: center; color: var(--text-dim); padding: 3rem;">No failures detected in current session.</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
+      </div>
 
-      </section>
     </main>
   </div>
 

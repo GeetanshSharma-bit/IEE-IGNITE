@@ -1,9 +1,4 @@
-"""
-PRODUCTION ML PIPELINE (SHOWCASE ONLY)
-This script demonstrates the offline training architecture for the EV Digital Twin.
-It trains an Anomaly Detection model and a Remaining Useful Life (RUL) regression model
-using 15 engineered telemetry features.
-"""
+
 
 import pandas as pd
 import numpy as np
@@ -18,21 +13,23 @@ def generate_synthetic_training_data(samples=10000):
     
     # 15 Engineered Features for the Digital Twin
     data = {
-        "v_bus": np.random.normal(380, 5, samples),            # 1. Bus Voltage (V)
-        "i_load": np.random.normal(50, 15, samples),           # 2. Load Current (A)
-        "t_core": np.random.normal(35, 8, samples),            # 3. Core Temperature (°C)
-        "t_ambient": np.random.normal(25, 5, samples),         # 4. Ambient Temperature (°C)
-        "soc": np.random.uniform(10, 100, samples),            # 5. State of Charge (%)
-        "soh": np.random.uniform(80, 100, samples),            # 6. State of Health (%)
-        "coolant_flow": np.random.normal(5.0, 0.5, samples),   # 7. Coolant Flow Rate (L/min)
-        "rotor_rpm": np.random.normal(4000, 1000, samples),    # 8. Motor RPM
-        "vibration_x": np.random.normal(0.02, 0.01, samples),  # 9. X-Axis Vibration (g)
-        "vibration_y": np.random.normal(0.01, 0.005, samples), # 10. Y-Axis Vibration (g)
-        "dt_rate": np.random.normal(0, 0.1, samples),          # 11. Thermal Rise Rate (°C/s)
-        "dv_rate": np.random.normal(0, 0.5, samples),          # 12. Voltage Drop Rate (V/s)
-        "di_rate": np.random.normal(0, 2.0, samples),          # 13. Current Spike Rate (A/s)
-        "internal_res": np.random.normal(0.05, 0.01, samples), # 14. Internal Resistance (Ohms)
-        "efficiency": np.random.normal(92, 3, samples)         # 15. Inverter Efficiency (%)
+        "v_bus": np.random.normal(380, 5, samples),            
+        "i_load": np.random.normal(50, 15, samples),           
+        "i_load": np.random.normal(50, 15, samples),
+        "i_load": np.random.normal(50, 15, samples),           
+        "t_core": np.random.normal(35, 8, samples),            
+        "t_ambient": np.random.normal(25, 5, samples),         
+        "soc": np.random.uniform(10, 100, samples),           
+        "soh": np.random.uniform(80, 100, samples),           
+        "coolant_flow": np.random.normal(5.0, 0.5, samples), 
+        "rotor_rpm": np.random.normal(4000, 1000, samples),    
+        "vibration_x": np.random.normal(0.02, 0.01, samples),  
+        "vibration_y": np.random.normal(0.01, 0.005, samples), 
+        "dt_rate": np.random.normal(0, 0.1, samples),          
+        "dv_rate": np.random.normal(0, 0.5, samples),          
+        "di_rate": np.random.normal(0, 2.0, samples),          
+        "internal_res": np.random.normal(0.05, 0.01, samples), 
+        "efficiency": np.random.normal(92, 3, samples)        
     }
     
     df = pd.DataFrame(data)

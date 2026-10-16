@@ -1,0 +1,1927 @@
+{
+    "ecu": "BMS",
+    "trigger_fault": "OVERVOLTAGE CELL STRESS",
+    "timestamp": "20261015_123540",
+    "telemetry_history": [
+        {
+            "time": "2026-10-15T12:33:37.936223",
+            "v": 460.04,
+            "i": 47.42,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:38.441572",
+            "v": 460.06,
+            "i": 46.87,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:38.957118",
+            "v": 460.03,
+            "i": 47.07,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:39.472837",
+            "v": 460.22,
+            "i": 47.43,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:39.982313",
+            "v": 460.3,
+            "i": 46.64,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:40.516643",
+            "v": 459.82,
+            "i": 46.64,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:41.021105",
+            "v": 459.94,
+            "i": 47.21,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:41.529193",
+            "v": 460.13,
+            "i": 47.21,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:42.044185",
+            "v": 460.23,
+            "i": 47.27,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:42.550392",
+            "v": 460.13,
+            "i": 46.65,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:43.054483",
+            "v": 459.73,
+            "i": 46.94,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:43.566505",
+            "v": 460.21,
+            "i": 46.79,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:44.070896",
+            "v": 460.08,
+            "i": 47.25,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:44.581769",
+            "v": 459.94,
+            "i": 46.87,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:45.084146",
+            "v": 459.7,
+            "i": 46.52,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:45.595613",
+            "v": 460.19,
+            "i": 47.2,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:46.108479",
+            "v": 460.17,
+            "i": 46.83,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:46.610201",
+            "v": 459.86,
+            "i": 47.53,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:47.126425",
+            "v": 459.98,
+            "i": 47.37,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:47.628027",
+            "v": 460.13,
+            "i": 46.78,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:48.132663",
+            "v": 459.87,
+            "i": 46.47,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:48.645993",
+            "v": 459.71,
+            "i": 47.21,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:49.159539",
+            "v": 460.09,
+            "i": 47.17,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:49.676244",
+            "v": 460.22,
+            "i": 46.95,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:50.191641",
+            "v": 459.99,
+            "i": 47.19,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:50.696281",
+            "v": 460.11,
+            "i": 47.25,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:51.211808",
+            "v": 460.27,
+            "i": 47.55,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:51.713861",
+            "v": 460.15,
+            "i": 46.96,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:52.219442",
+            "v": 459.77,
+            "i": 46.67,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:52.722635",
+            "v": 459.91,
+            "i": 47.39,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:53.239183",
+            "v": 459.9,
+            "i": 47.06,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:53.742047",
+            "v": 460.26,
+            "i": 47.01,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:54.256758",
+            "v": 460.1,
+            "i": 46.87,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:54.757705",
+            "v": 459.93,
+            "i": 46.93,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:55.269086",
+            "v": 460.26,
+            "i": 46.98,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:55.777845",
+            "v": 459.78,
+            "i": 47.08,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:56.293032",
+            "v": 459.85,
+            "i": 47.06,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:56.807560",
+            "v": 460.0,
+            "i": 47.55,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:57.321296",
+            "v": 459.83,
+            "i": 47.43,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:57.825933",
+            "v": 459.98,
+            "i": 47.21,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:58.337232",
+            "v": 460.05,
+            "i": 46.56,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:58.844386",
+            "v": 460.2,
+            "i": 46.81,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:59.357221",
+            "v": 460.19,
+            "i": 47.04,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:33:59.862746",
+            "v": 459.91,
+            "i": 47.39,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:00.372490",
+            "v": 459.85,
+            "i": 47.52,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:00.873428",
+            "v": 460.0,
+            "i": 47.32,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:01.375613",
+            "v": 459.81,
+            "i": 46.58,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:01.879681",
+            "v": 460.03,
+            "i": 47.46,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:02.383960",
+            "v": 460.24,
+            "i": 47.41,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:02.893955",
+            "v": 460.14,
+            "i": 46.74,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:03.411033",
+            "v": 460.09,
+            "i": 46.87,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:03.922032",
+            "v": 459.99,
+            "i": 46.78,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:04.437951",
+            "v": 459.82,
+            "i": 46.78,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:04.944455",
+            "v": 460.2,
+            "i": 47.17,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:05.459011",
+            "v": 460.21,
+            "i": 47.16,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:05.969033",
+            "v": 459.96,
+            "i": 46.57,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:06.482946",
+            "v": 460.0,
+            "i": 46.78,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:06.995838",
+            "v": 459.89,
+            "i": 46.74,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:07.504768",
+            "v": 459.93,
+            "i": 47.59,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:08.021001",
+            "v": 459.89,
+            "i": 46.75,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:08.532544",
+            "v": 460.03,
+            "i": 46.64,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:09.036008",
+            "v": 460.05,
+            "i": 46.45,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:09.545388",
+            "v": 460.03,
+            "i": 46.85,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:10.054098",
+            "v": 459.97,
+            "i": 47.49,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:10.567422",
+            "v": 459.96,
+            "i": 47.17,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:11.076312",
+            "v": 459.73,
+            "i": 47.36,
+            "t": 36.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:11.587378",
+            "v": 459.85,
+            "i": 46.69,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:12.103975",
+            "v": 459.84,
+            "i": 46.58,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:12.609159",
+            "v": 460.06,
+            "i": 46.82,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:13.112851",
+            "v": 459.99,
+            "i": 47.54,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:13.617590",
+            "v": 460.07,
+            "i": 46.77,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:14.131558",
+            "v": 460.02,
+            "i": 47.11,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:14.638101",
+            "v": 460.1,
+            "i": 47.3,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:15.154272",
+            "v": 460.03,
+            "i": 46.7,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:15.666640",
+            "v": 460.21,
+            "i": 46.98,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:16.173551",
+            "v": 459.77,
+            "i": 47.54,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:16.689290",
+            "v": 459.79,
+            "i": 47.22,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:17.204070",
+            "v": 460.28,
+            "i": 47.04,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:17.710441",
+            "v": 459.99,
+            "i": 46.51,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:18.225194",
+            "v": 459.7,
+            "i": 47.36,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:18.731229",
+            "v": 460.22,
+            "i": 47.26,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:19.239087",
+            "v": 460.24,
+            "i": 46.59,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:19.751485",
+            "v": 459.91,
+            "i": 46.48,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:20.257680",
+            "v": 460.21,
+            "i": 47.41,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:20.770344",
+            "v": 459.7,
+            "i": 47.35,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:21.275164",
+            "v": 459.83,
+            "i": 46.96,
+            "t": 36.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:21.783624",
+            "v": 460.11,
+            "i": 46.62,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:22.291073",
+            "v": 460.11,
+            "i": 46.88,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:22.802250",
+            "v": 460.3,
+            "i": 46.78,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:23.317891",
+            "v": 460.17,
+            "i": 46.87,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:23.832457",
+            "v": 460.27,
+            "i": 46.63,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:24.342872",
+            "v": 460.06,
+            "i": 47.25,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:24.857915",
+            "v": 459.88,
+            "i": 46.83,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:25.359468",
+            "v": 459.89,
+            "i": 46.63,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:25.865427",
+            "v": 459.83,
+            "i": 46.46,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:26.371939",
+            "v": 460.03,
+            "i": 46.92,
+            "t": 36.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:26.873969",
+            "v": 460.19,
+            "i": 47.38,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:27.376349",
+            "v": 459.76,
+            "i": 47.35,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:27.884237",
+            "v": 459.97,
+            "i": 47.5,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:28.386000",
+            "v": 459.88,
+            "i": 46.89,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:28.887834",
+            "v": 459.92,
+            "i": 46.85,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:29.390884",
+            "v": 460.01,
+            "i": 47.47,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:29.906408",
+            "v": 459.79,
+            "i": 47.29,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:30.420130",
+            "v": 459.93,
+            "i": 47.59,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:30.936850",
+            "v": 460.1,
+            "i": 47.45,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:31.449180",
+            "v": 459.97,
+            "i": 47.49,
+            "t": 36.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:31.964289",
+            "v": 459.82,
+            "i": 47.2,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:32.478180",
+            "v": 459.97,
+            "i": 47.21,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:32.991828",
+            "v": 460.13,
+            "i": 46.97,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:33.508662",
+            "v": 459.97,
+            "i": 47.0,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:34.019087",
+            "v": 460.28,
+            "i": 46.74,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:34.531718",
+            "v": 459.94,
+            "i": 47.38,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:35.045616",
+            "v": 459.89,
+            "i": 47.15,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:35.556806",
+            "v": 459.88,
+            "i": 46.77,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:36.072299",
+            "v": 460.12,
+            "i": 46.44,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:36.586730",
+            "v": 459.94,
+            "i": 47.51,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:37.092533",
+            "v": 459.81,
+            "i": 46.4,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:37.599086",
+            "v": 460.29,
+            "i": 46.61,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:38.116059",
+            "v": 459.95,
+            "i": 47.46,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:38.630443",
+            "v": 459.87,
+            "i": 46.89,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:39.140780",
+            "v": 460.0,
+            "i": 47.33,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:39.653613",
+            "v": 459.88,
+            "i": 46.93,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:40.169879",
+            "v": 459.97,
+            "i": 47.48,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:40.683782",
+            "v": 459.86,
+            "i": 47.23,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:41.198126",
+            "v": 459.94,
+            "i": 46.54,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:41.711172",
+            "v": 460.13,
+            "i": 47.24,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:42.225960",
+            "v": 460.16,
+            "i": 47.58,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:42.739450",
+            "v": 460.18,
+            "i": 47.4,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:43.256212",
+            "v": 460.2,
+            "i": 46.62,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:43.772288",
+            "v": 459.84,
+            "i": 46.52,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:44.284893",
+            "v": 459.92,
+            "i": 47.45,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:44.798507",
+            "v": 459.98,
+            "i": 46.8,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:45.312392",
+            "v": 460.04,
+            "i": 47.1,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:45.824324",
+            "v": 460.28,
+            "i": 46.98,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:46.326203",
+            "v": 460.17,
+            "i": 47.01,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:46.838254",
+            "v": 459.89,
+            "i": 47.58,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:47.341870",
+            "v": 459.8,
+            "i": 46.95,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:47.848574",
+            "v": 460.06,
+            "i": 46.83,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:48.362149",
+            "v": 459.93,
+            "i": 46.64,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:48.877379",
+            "v": 460.23,
+            "i": 46.41,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:49.388457",
+            "v": 459.77,
+            "i": 46.5,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:49.901272",
+            "v": 460.06,
+            "i": 47.45,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:50.414738",
+            "v": 460.22,
+            "i": 46.97,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:50.926244",
+            "v": 460.03,
+            "i": 46.5,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:51.438978",
+            "v": 460.19,
+            "i": 46.93,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:51.953106",
+            "v": 460.02,
+            "i": 46.48,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:52.469525",
+            "v": 459.71,
+            "i": 46.52,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:52.980934",
+            "v": 459.82,
+            "i": 46.95,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:53.496503",
+            "v": 460.08,
+            "i": 46.56,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:54.007154",
+            "v": 460.07,
+            "i": 46.66,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:54.508188",
+            "v": 459.78,
+            "i": 46.58,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:55.022371",
+            "v": 459.98,
+            "i": 47.4,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:55.533177",
+            "v": 460.23,
+            "i": 47.34,
+            "t": 36.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:56.048691",
+            "v": 460.04,
+            "i": 46.9,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:56.550830",
+            "v": 460.18,
+            "i": 46.67,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:57.064669",
+            "v": 459.95,
+            "i": 47.28,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:57.577964",
+            "v": 460.26,
+            "i": 47.59,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:58.109412",
+            "v": 460.27,
+            "i": 46.83,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:58.622558",
+            "v": 459.99,
+            "i": 47.0,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:59.138677",
+            "v": 459.98,
+            "i": 47.09,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:34:59.665039",
+            "v": 460.13,
+            "i": 46.85,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:00.181351",
+            "v": 460.19,
+            "i": 47.1,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:00.693717",
+            "v": 460.17,
+            "i": 46.98,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:01.206537",
+            "v": 459.94,
+            "i": 46.59,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:01.729245",
+            "v": 459.86,
+            "i": 46.8,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:02.244920",
+            "v": 460.11,
+            "i": 47.4,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:02.757121",
+            "v": 459.85,
+            "i": 47.02,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:03.272220",
+            "v": 460.25,
+            "i": 47.21,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:03.790440",
+            "v": 460.3,
+            "i": 47.23,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:04.298458",
+            "v": 460.05,
+            "i": 47.56,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:04.810628",
+            "v": 460.08,
+            "i": 47.16,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:05.326101",
+            "v": 459.99,
+            "i": 46.6,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:05.838940",
+            "v": 460.13,
+            "i": 46.67,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:06.352992",
+            "v": 459.99,
+            "i": 47.23,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:06.866839",
+            "v": 460.21,
+            "i": 46.8,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:07.381719",
+            "v": 459.76,
+            "i": 46.57,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:07.894591",
+            "v": 459.85,
+            "i": 47.47,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:08.406002",
+            "v": 460.27,
+            "i": 46.89,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:08.922449",
+            "v": 460.15,
+            "i": 46.92,
+            "t": 36.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:09.434340",
+            "v": 460.21,
+            "i": 47.26,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:09.949362",
+            "v": 460.01,
+            "i": 46.51,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:10.460967",
+            "v": 459.75,
+            "i": 46.55,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:10.971436",
+            "v": 460.03,
+            "i": 46.61,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:11.488076",
+            "v": 459.82,
+            "i": 47.06,
+            "t": 36.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:11.996066",
+            "v": 459.91,
+            "i": 46.82,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:12.507486",
+            "v": 459.77,
+            "i": 46.94,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:13.018853",
+            "v": 459.92,
+            "i": 46.9,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:13.521026",
+            "v": 459.89,
+            "i": 47.21,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:14.034339",
+            "v": 460.3,
+            "i": 47.54,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:14.546016",
+            "v": 459.83,
+            "i": 47.13,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:15.060208",
+            "v": 460.12,
+            "i": 46.75,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:15.575146",
+            "v": 460.21,
+            "i": 46.52,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:16.088317",
+            "v": 460.16,
+            "i": 46.47,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:16.601453",
+            "v": 459.94,
+            "i": 46.48,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:17.115577",
+            "v": 460.22,
+            "i": 47.1,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:17.633440",
+            "v": 459.74,
+            "i": 46.41,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:18.138877",
+            "v": 460.2,
+            "i": 46.7,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:18.653012",
+            "v": 460.25,
+            "i": 47.47,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:19.170685",
+            "v": 460.04,
+            "i": 46.56,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:19.675911",
+            "v": 459.74,
+            "i": 47.56,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:20.189109",
+            "v": 459.88,
+            "i": 47.06,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:20.703565",
+            "v": 460.05,
+            "i": 46.49,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:21.216505",
+            "v": 459.9,
+            "i": 46.5,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:21.730824",
+            "v": 459.71,
+            "i": 47.33,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:22.244862",
+            "v": 459.9,
+            "i": 47.05,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:22.759796",
+            "v": 460.04,
+            "i": 47.0,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:23.269425",
+            "v": 459.86,
+            "i": 47.45,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:23.783151",
+            "v": 460.17,
+            "i": 47.1,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:24.294129",
+            "v": 460.22,
+            "i": 46.68,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:24.808690",
+            "v": 459.82,
+            "i": 47.51,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:25.322655",
+            "v": 459.72,
+            "i": 47.46,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:25.835662",
+            "v": 459.83,
+            "i": 46.6,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:26.347573",
+            "v": 460.05,
+            "i": 46.95,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:26.858999",
+            "v": 460.02,
+            "i": 47.03,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:27.372453",
+            "v": 459.91,
+            "i": 46.89,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:27.884378",
+            "v": 459.79,
+            "i": 47.4,
+            "t": 36.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:28.398587",
+            "v": 460.25,
+            "i": 47.19,
+            "t": 36.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:28.912909",
+            "v": 460.14,
+            "i": 46.46,
+            "t": 36.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:29.425691",
+            "v": 459.81,
+            "i": 47.3,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:29.940478",
+            "v": 460.03,
+            "i": 46.52,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:30.454214",
+            "v": 460.22,
+            "i": 46.94,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:30.965891",
+            "v": 459.84,
+            "i": 47.48,
+            "t": 36.43,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:31.479407",
+            "v": 459.97,
+            "i": 46.8,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:31.992878",
+            "v": 460.21,
+            "i": 46.46,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:32.505322",
+            "v": 460.05,
+            "i": 47.51,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:33.008297",
+            "v": 460.08,
+            "i": 46.46,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:33.518316",
+            "v": 459.73,
+            "i": 47.07,
+            "t": 36.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:34.022965",
+            "v": 460.14,
+            "i": 46.9,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:34.536878",
+            "v": 459.88,
+            "i": 47.05,
+            "t": 36.56,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:35.042027",
+            "v": 460.08,
+            "i": 46.78,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:35.557243",
+            "v": 459.82,
+            "i": 46.74,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:36.072080",
+            "v": 459.85,
+            "i": 47.4,
+            "t": 36.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:36.586227",
+            "v": 459.74,
+            "i": 47.19,
+            "t": 36.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:37.099536",
+            "v": 459.85,
+            "i": 47.27,
+            "t": 36.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:37.614079",
+            "v": 460.28,
+            "i": 46.71,
+            "t": 36.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:38.127109",
+            "v": 459.81,
+            "i": 46.78,
+            "t": 36.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:38.639604",
+            "v": 459.77,
+            "i": 47.02,
+            "t": 36.47,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:39.153205",
+            "v": 460.14,
+            "i": 47.36,
+            "t": 36.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:39.666611",
+            "v": 460.22,
+            "i": 47.35,
+            "t": 36.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        },
+        {
+            "time": "2026-10-15T12:35:40.182253",
+            "v": 459.79,
+            "i": 47.08,
+            "t": 36.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "OVERVOLTAGE CELL STRESS"
+        }
+    ]
+}

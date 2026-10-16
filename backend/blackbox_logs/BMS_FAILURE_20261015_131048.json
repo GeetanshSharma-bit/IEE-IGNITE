@@ -1,0 +1,1927 @@
+{
+    "ecu": "BMS",
+    "trigger_fault": "CRITICAL THERMAL SPIKE",
+    "timestamp": "20261015_131048",
+    "telemetry_history": [
+        {
+            "time": "2026-10-15T13:08:43.291089",
+            "v": 380.23,
+            "i": 45.54,
+            "t": 31.97,
+            "anomaly_pct": 0.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:43.799386",
+            "v": 379.96,
+            "i": 44.92,
+            "t": 32.06,
+            "anomaly_pct": 5.5,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:44.305741",
+            "v": 380.22,
+            "i": 45.46,
+            "t": 32.01,
+            "anomaly_pct": 1.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:44.812042",
+            "v": 379.93,
+            "i": 44.8,
+            "t": 32.03,
+            "anomaly_pct": 3.2,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:45.320038",
+            "v": 379.75,
+            "i": 44.98,
+            "t": 32.03,
+            "anomaly_pct": 2.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:45.826127",
+            "v": 379.82,
+            "i": 44.83,
+            "t": 32.06,
+            "anomaly_pct": 5.2,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:46.333659",
+            "v": 380.23,
+            "i": 44.71,
+            "t": 32.02,
+            "anomaly_pct": 2.1,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:46.839617",
+            "v": 380.08,
+            "i": 45.2,
+            "t": 31.96,
+            "anomaly_pct": 0.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:47.346647",
+            "v": 380.24,
+            "i": 44.72,
+            "t": 32.0,
+            "anomaly_pct": 0.9,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:47.854055",
+            "v": 379.82,
+            "i": 45.42,
+            "t": 32.04,
+            "anomaly_pct": 3.7,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:08:48.376973",
+            "v": 380.17,
+            "i": 45.0,
+            "t": 36.41,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:48.911158",
+            "v": 380.25,
+            "i": 45.04,
+            "t": 40.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:49.442740",
+            "v": 380.25,
+            "i": 44.41,
+            "t": 44.36,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:49.977124",
+            "v": 379.76,
+            "i": 45.04,
+            "t": 47.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:50.503970",
+            "v": 380.09,
+            "i": 45.24,
+            "t": 51.13,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:51.024754",
+            "v": 380.28,
+            "i": 44.51,
+            "t": 54.19,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:51.540671",
+            "v": 380.27,
+            "i": 45.29,
+            "t": 57.14,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:52.062858",
+            "v": 379.72,
+            "i": 44.47,
+            "t": 59.77,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:52.583225",
+            "v": 379.71,
+            "i": 44.57,
+            "t": 62.14,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:53.102860",
+            "v": 380.04,
+            "i": 44.46,
+            "t": 64.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:53.624469",
+            "v": 379.74,
+            "i": 45.3,
+            "t": 66.72,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:54.144216",
+            "v": 380.14,
+            "i": 44.74,
+            "t": 68.7,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:54.663928",
+            "v": 379.96,
+            "i": 45.0,
+            "t": 70.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:55.178831",
+            "v": 379.97,
+            "i": 44.8,
+            "t": 70.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:55.696969",
+            "v": 379.9,
+            "i": 44.73,
+            "t": 71.46,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:56.212395",
+            "v": 379.98,
+            "i": 44.51,
+            "t": 71.88,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:56.764720",
+            "v": 380.28,
+            "i": 45.51,
+            "t": 72.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:57.280893",
+            "v": 380.05,
+            "i": 45.12,
+            "t": 73.34,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:57.802258",
+            "v": 380.17,
+            "i": 45.62,
+            "t": 74.29,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:58.344171",
+            "v": 380.15,
+            "i": 45.76,
+            "t": 75.27,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:58.873179",
+            "v": 379.83,
+            "i": 45.02,
+            "t": 76.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:59.394170",
+            "v": 379.92,
+            "i": 45.24,
+            "t": 76.81,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:08:59.915592",
+            "v": 379.97,
+            "i": 45.84,
+            "t": 77.52,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:00.443409",
+            "v": 380.07,
+            "i": 45.93,
+            "t": 78.14,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:00.965160",
+            "v": 380.29,
+            "i": 45.6,
+            "t": 78.86,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:01.480537",
+            "v": 379.88,
+            "i": 46.17,
+            "t": 79.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:01.998211",
+            "v": 380.29,
+            "i": 45.46,
+            "t": 75.36,
+            "anomaly_pct": 96.2,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:02.522821",
+            "v": 379.77,
+            "i": 45.56,
+            "t": 71.56,
+            "anomaly_pct": 87.8,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:03.049213",
+            "v": 379.82,
+            "i": 45.99,
+            "t": 68.17,
+            "anomaly_pct": 80.3,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:03.565207",
+            "v": 379.89,
+            "i": 46.09,
+            "t": 64.85,
+            "anomaly_pct": 73.0,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:04.088766",
+            "v": 380.09,
+            "i": 45.69,
+            "t": 61.9,
+            "anomaly_pct": 66.5,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:04.611799",
+            "v": 379.82,
+            "i": 46.18,
+            "t": 59.1,
+            "anomaly_pct": 60.3,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:05.127670",
+            "v": 380.26,
+            "i": 46.41,
+            "t": 56.55,
+            "anomaly_pct": 54.6,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:05.641614",
+            "v": 380.21,
+            "i": 46.19,
+            "t": 54.14,
+            "anomaly_pct": 49.4,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:06.157031",
+            "v": 379.88,
+            "i": 45.54,
+            "t": 51.93,
+            "anomaly_pct": 44.6,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:06.673484",
+            "v": 379.82,
+            "i": 45.48,
+            "t": 49.76,
+            "anomaly_pct": 39.9,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:07.192804",
+            "v": 379.74,
+            "i": 46.16,
+            "t": 47.82,
+            "anomaly_pct": 35.5,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:07.711575",
+            "v": 379.97,
+            "i": 46.29,
+            "t": 46.03,
+            "anomaly_pct": 31.5,
+            "fault_mode": "SYSTEM NOMINAL"
+        },
+        {
+            "time": "2026-10-15T13:09:08.239624",
+            "v": 380.17,
+            "i": 45.92,
+            "t": 48.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:08.769972",
+            "v": 379.78,
+            "i": 46.14,
+            "t": 51.57,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:09.293781",
+            "v": 380.24,
+            "i": 45.68,
+            "t": 54.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:09.815744",
+            "v": 379.81,
+            "i": 45.94,
+            "t": 56.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:10.342397",
+            "v": 380.27,
+            "i": 46.26,
+            "t": 58.48,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:10.872626",
+            "v": 380.11,
+            "i": 46.16,
+            "t": 60.41,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:11.393378",
+            "v": 380.2,
+            "i": 45.77,
+            "t": 62.39,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:11.921688",
+            "v": 379.8,
+            "i": 45.96,
+            "t": 64.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:12.442240",
+            "v": 380.25,
+            "i": 46.29,
+            "t": 62.57,
+            "anomaly_pct": 67.9,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:12.960454",
+            "v": 380.16,
+            "i": 45.77,
+            "t": 60.97,
+            "anomaly_pct": 64.5,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:13.494963",
+            "v": 379.96,
+            "i": 46.41,
+            "t": 59.58,
+            "anomaly_pct": 61.3,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:14.013036",
+            "v": 379.71,
+            "i": 46.42,
+            "t": 58.3,
+            "anomaly_pct": 58.5,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:14.539100",
+            "v": 380.17,
+            "i": 46.2,
+            "t": 57.22,
+            "anomaly_pct": 56.1,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:15.058483",
+            "v": 379.95,
+            "i": 45.76,
+            "t": 56.1,
+            "anomaly_pct": 53.8,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:15.578030",
+            "v": 379.96,
+            "i": 46.52,
+            "t": 55.06,
+            "anomaly_pct": 51.3,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:16.107393",
+            "v": 379.93,
+            "i": 45.79,
+            "t": 54.07,
+            "anomaly_pct": 49.3,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:16.627361",
+            "v": 380.03,
+            "i": 45.74,
+            "t": 53.22,
+            "anomaly_pct": 47.4,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:17.148521",
+            "v": 379.88,
+            "i": 46.24,
+            "t": 52.38,
+            "anomaly_pct": 45.5,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:17.678431",
+            "v": 379.87,
+            "i": 46.05,
+            "t": 51.69,
+            "anomaly_pct": 44.0,
+            "fault_mode": "SUB-SYSTEM DEGRADATION"
+        },
+        {
+            "time": "2026-10-15T13:09:18.201397",
+            "v": 380.19,
+            "i": 45.56,
+            "t": 54.62,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:18.721825",
+            "v": 379.89,
+            "i": 45.7,
+            "t": 57.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:19.239624",
+            "v": 380.25,
+            "i": 46.41,
+            "t": 60.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:19.756739",
+            "v": 379.71,
+            "i": 45.72,
+            "t": 62.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:20.272860",
+            "v": 380.25,
+            "i": 45.94,
+            "t": 64.83,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:20.793418",
+            "v": 380.07,
+            "i": 46.56,
+            "t": 66.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:21.315638",
+            "v": 380.21,
+            "i": 45.58,
+            "t": 68.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:21.835627",
+            "v": 380.28,
+            "i": 46.31,
+            "t": 70.67,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:22.354305",
+            "v": 380.18,
+            "i": 46.02,
+            "t": 72.39,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:22.869778",
+            "v": 380.05,
+            "i": 45.82,
+            "t": 74.1,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:23.390316",
+            "v": 380.07,
+            "i": 46.17,
+            "t": 75.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:23.910045",
+            "v": 380.11,
+            "i": 46.23,
+            "t": 76.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:24.436830",
+            "v": 379.99,
+            "i": 46.23,
+            "t": 78.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:24.958300",
+            "v": 380.06,
+            "i": 45.41,
+            "t": 79.29,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:25.481755",
+            "v": 379.71,
+            "i": 45.7,
+            "t": 80.38,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:26.018233",
+            "v": 380.15,
+            "i": 45.74,
+            "t": 81.4,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:26.536605",
+            "v": 380.15,
+            "i": 45.92,
+            "t": 82.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:27.065017",
+            "v": 379.86,
+            "i": 46.28,
+            "t": 83.24,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:27.587211",
+            "v": 379.9,
+            "i": 45.43,
+            "t": 84.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:28.107646",
+            "v": 379.81,
+            "i": 46.48,
+            "t": 84.78,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:28.645640",
+            "v": 379.72,
+            "i": 45.49,
+            "t": 85.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:29.178006",
+            "v": 379.76,
+            "i": 46.2,
+            "t": 86.19,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:29.694337",
+            "v": 379.76,
+            "i": 46.07,
+            "t": 86.83,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:30.212337",
+            "v": 380.25,
+            "i": 46.51,
+            "t": 87.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:30.733396",
+            "v": 379.87,
+            "i": 45.51,
+            "t": 87.9,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:31.250343",
+            "v": 379.76,
+            "i": 46.33,
+            "t": 88.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:31.778065",
+            "v": 380.24,
+            "i": 45.8,
+            "t": 88.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:32.298514",
+            "v": 379.87,
+            "i": 45.87,
+            "t": 89.36,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:32.816056",
+            "v": 379.86,
+            "i": 45.75,
+            "t": 89.68,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:33.333430",
+            "v": 379.83,
+            "i": 46.58,
+            "t": 90.11,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:33.852365",
+            "v": 379.99,
+            "i": 46.21,
+            "t": 90.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:34.368493",
+            "v": 379.82,
+            "i": 45.47,
+            "t": 90.76,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:34.885497",
+            "v": 380.08,
+            "i": 46.44,
+            "t": 91.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:35.403099",
+            "v": 380.24,
+            "i": 46.18,
+            "t": 91.29,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:35.922176",
+            "v": 379.73,
+            "i": 45.44,
+            "t": 91.53,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:36.437122",
+            "v": 379.72,
+            "i": 46.13,
+            "t": 91.87,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:36.949141",
+            "v": 380.22,
+            "i": 46.19,
+            "t": 92.1,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:37.463682",
+            "v": 379.71,
+            "i": 46.52,
+            "t": 92.22,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:37.984512",
+            "v": 380.01,
+            "i": 45.5,
+            "t": 92.41,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:38.505631",
+            "v": 380.1,
+            "i": 46.57,
+            "t": 92.59,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:39.058371",
+            "v": 380.05,
+            "i": 46.49,
+            "t": 92.73,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:39.574982",
+            "v": 379.92,
+            "i": 46.44,
+            "t": 92.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:40.111253",
+            "v": 379.98,
+            "i": 45.55,
+            "t": 93.14,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:40.629265",
+            "v": 380.27,
+            "i": 46.52,
+            "t": 93.16,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:41.150687",
+            "v": 379.92,
+            "i": 45.43,
+            "t": 93.3,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:41.672890",
+            "v": 380.09,
+            "i": 45.85,
+            "t": 93.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:42.195967",
+            "v": 380.27,
+            "i": 46.39,
+            "t": 93.54,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:42.715504",
+            "v": 380.0,
+            "i": 45.42,
+            "t": 93.72,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:43.232247",
+            "v": 379.73,
+            "i": 45.87,
+            "t": 93.73,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:43.764011",
+            "v": 379.75,
+            "i": 46.02,
+            "t": 93.87,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:44.281350",
+            "v": 380.27,
+            "i": 46.16,
+            "t": 93.86,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:44.804062",
+            "v": 380.1,
+            "i": 46.15,
+            "t": 94.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:45.327392",
+            "v": 379.94,
+            "i": 46.35,
+            "t": 94.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:45.846826",
+            "v": 379.76,
+            "i": 46.06,
+            "t": 94.16,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:46.364859",
+            "v": 380.28,
+            "i": 45.6,
+            "t": 94.13,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:46.886551",
+            "v": 379.92,
+            "i": 46.04,
+            "t": 94.18,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:47.411289",
+            "v": 379.87,
+            "i": 46.33,
+            "t": 94.3,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:47.928065",
+            "v": 379.91,
+            "i": 46.54,
+            "t": 94.31,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:48.445202",
+            "v": 379.72,
+            "i": 45.64,
+            "t": 94.45,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:48.961045",
+            "v": 379.87,
+            "i": 46.47,
+            "t": 94.49,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:49.474667",
+            "v": 379.87,
+            "i": 46.32,
+            "t": 94.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:49.988089",
+            "v": 379.91,
+            "i": 45.95,
+            "t": 94.55,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:50.513794",
+            "v": 379.89,
+            "i": 45.6,
+            "t": 94.51,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:51.044942",
+            "v": 379.96,
+            "i": 46.39,
+            "t": 94.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:51.570521",
+            "v": 379.9,
+            "i": 45.99,
+            "t": 94.65,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:52.095887",
+            "v": 379.79,
+            "i": 45.57,
+            "t": 94.71,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:52.612953",
+            "v": 380.22,
+            "i": 45.41,
+            "t": 94.73,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:53.129061",
+            "v": 379.92,
+            "i": 45.65,
+            "t": 94.72,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:53.652467",
+            "v": 379.77,
+            "i": 46.01,
+            "t": 94.71,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:54.177127",
+            "v": 380.22,
+            "i": 46.06,
+            "t": 94.7,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:54.701458",
+            "v": 380.1,
+            "i": 46.06,
+            "t": 94.8,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:55.221049",
+            "v": 380.06,
+            "i": 45.41,
+            "t": 94.82,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:55.748407",
+            "v": 380.03,
+            "i": 45.89,
+            "t": 94.78,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:56.273430",
+            "v": 380.24,
+            "i": 46.45,
+            "t": 94.83,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:56.796817",
+            "v": 379.79,
+            "i": 45.61,
+            "t": 94.82,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:57.332714",
+            "v": 379.86,
+            "i": 46.3,
+            "t": 94.75,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:57.852470",
+            "v": 379.8,
+            "i": 45.94,
+            "t": 94.76,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:58.400743",
+            "v": 379.96,
+            "i": 46.16,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:58.960079",
+            "v": 380.16,
+            "i": 45.84,
+            "t": 94.8,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:09:59.514589",
+            "v": 380.04,
+            "i": 46.13,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:00.065763",
+            "v": 379.89,
+            "i": 45.61,
+            "t": 94.87,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:00.587870",
+            "v": 380.22,
+            "i": 46.56,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:01.116022",
+            "v": 379.71,
+            "i": 46.52,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:01.655857",
+            "v": 379.8,
+            "i": 45.56,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:02.180554",
+            "v": 380.05,
+            "i": 45.7,
+            "t": 94.88,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:02.726323",
+            "v": 379.75,
+            "i": 46.06,
+            "t": 94.86,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:03.250325",
+            "v": 380.27,
+            "i": 46.3,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:03.787225",
+            "v": 379.95,
+            "i": 45.64,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:04.319726",
+            "v": 380.23,
+            "i": 46.55,
+            "t": 94.88,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:04.845211",
+            "v": 380.07,
+            "i": 46.27,
+            "t": 94.89,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:05.377226",
+            "v": 380.28,
+            "i": 46.26,
+            "t": 94.89,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:05.905255",
+            "v": 380.29,
+            "i": 45.9,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:06.427589",
+            "v": 379.99,
+            "i": 45.7,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:06.947675",
+            "v": 380.17,
+            "i": 45.93,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:07.469541",
+            "v": 380.17,
+            "i": 46.32,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:07.991836",
+            "v": 379.92,
+            "i": 46.37,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:08.524784",
+            "v": 379.81,
+            "i": 45.71,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:09.062146",
+            "v": 380.22,
+            "i": 45.77,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:09.582322",
+            "v": 379.78,
+            "i": 46.02,
+            "t": 94.9,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:10.120432",
+            "v": 380.24,
+            "i": 45.99,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:10.647866",
+            "v": 379.77,
+            "i": 45.61,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:11.181544",
+            "v": 379.95,
+            "i": 46.48,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:11.707897",
+            "v": 380.01,
+            "i": 46.23,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:12.241875",
+            "v": 380.07,
+            "i": 45.64,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:12.765682",
+            "v": 379.82,
+            "i": 45.5,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:13.299555",
+            "v": 379.84,
+            "i": 46.06,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:13.840990",
+            "v": 380.02,
+            "i": 46.47,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:14.376197",
+            "v": 380.27,
+            "i": 45.56,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:14.902867",
+            "v": 380.22,
+            "i": 45.62,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:15.423373",
+            "v": 379.95,
+            "i": 46.08,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:15.943624",
+            "v": 380.13,
+            "i": 46.44,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:16.463095",
+            "v": 380.2,
+            "i": 45.86,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:17.008385",
+            "v": 380.29,
+            "i": 46.12,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:17.530695",
+            "v": 380.18,
+            "i": 45.52,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:18.044212",
+            "v": 379.91,
+            "i": 46.06,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:18.557434",
+            "v": 379.83,
+            "i": 45.48,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:19.079006",
+            "v": 380.04,
+            "i": 46.12,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:19.605247",
+            "v": 379.77,
+            "i": 45.83,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:20.134117",
+            "v": 380.02,
+            "i": 45.99,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:20.659390",
+            "v": 380.12,
+            "i": 46.55,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:21.187899",
+            "v": 379.74,
+            "i": 46.26,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:21.721218",
+            "v": 380.3,
+            "i": 45.58,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:22.251371",
+            "v": 380.01,
+            "i": 46.09,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:22.782173",
+            "v": 380.22,
+            "i": 46.0,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:23.309897",
+            "v": 380.14,
+            "i": 45.96,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:23.846850",
+            "v": 379.94,
+            "i": 46.4,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:24.372413",
+            "v": 380.08,
+            "i": 46.42,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:24.901587",
+            "v": 380.06,
+            "i": 45.55,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:25.433488",
+            "v": 380.25,
+            "i": 45.5,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:25.963795",
+            "v": 379.78,
+            "i": 46.53,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:26.493580",
+            "v": 380.23,
+            "i": 46.15,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:27.013189",
+            "v": 380.25,
+            "i": 45.98,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:27.539206",
+            "v": 380.17,
+            "i": 45.82,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:28.069057",
+            "v": 380.09,
+            "i": 46.27,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:28.588206",
+            "v": 379.75,
+            "i": 46.6,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:29.105200",
+            "v": 380.14,
+            "i": 46.32,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:29.629551",
+            "v": 379.92,
+            "i": 46.35,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:30.152716",
+            "v": 379.91,
+            "i": 46.24,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:30.681188",
+            "v": 380.29,
+            "i": 45.92,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:31.212457",
+            "v": 379.97,
+            "i": 46.18,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:31.735854",
+            "v": 379.76,
+            "i": 46.49,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:32.265443",
+            "v": 379.91,
+            "i": 45.68,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:32.801277",
+            "v": 379.79,
+            "i": 45.51,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:33.333154",
+            "v": 380.2,
+            "i": 45.91,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:33.858933",
+            "v": 379.71,
+            "i": 46.59,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:34.393088",
+            "v": 380.0,
+            "i": 46.54,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:34.929744",
+            "v": 380.11,
+            "i": 45.99,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:35.450617",
+            "v": 379.81,
+            "i": 45.87,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:35.965493",
+            "v": 380.05,
+            "i": 46.36,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:36.496761",
+            "v": 380.22,
+            "i": 45.72,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:37.024355",
+            "v": 379.99,
+            "i": 46.19,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:37.550658",
+            "v": 380.18,
+            "i": 46.42,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:38.069894",
+            "v": 380.23,
+            "i": 46.03,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:38.595387",
+            "v": 380.18,
+            "i": 46.39,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:39.117754",
+            "v": 380.23,
+            "i": 45.67,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:39.641061",
+            "v": 379.77,
+            "i": 46.34,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:40.176800",
+            "v": 379.73,
+            "i": 45.81,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:40.703992",
+            "v": 379.8,
+            "i": 46.23,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:41.233073",
+            "v": 380.21,
+            "i": 46.56,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:41.756883",
+            "v": 379.75,
+            "i": 46.04,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:42.290754",
+            "v": 380.13,
+            "i": 46.09,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:42.805306",
+            "v": 380.18,
+            "i": 45.62,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:43.326896",
+            "v": 380.2,
+            "i": 46.43,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:43.857354",
+            "v": 380.29,
+            "i": 45.75,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:44.386129",
+            "v": 380.16,
+            "i": 45.81,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:44.926272",
+            "v": 379.93,
+            "i": 45.92,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:45.446660",
+            "v": 380.15,
+            "i": 46.23,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:45.979563",
+            "v": 380.16,
+            "i": 45.76,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:46.508074",
+            "v": 379.93,
+            "i": 45.48,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:47.028401",
+            "v": 380.27,
+            "i": 46.44,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:47.560501",
+            "v": 379.73,
+            "i": 45.85,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:48.101554",
+            "v": 380.1,
+            "i": 46.03,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        },
+        {
+            "time": "2026-10-15T13:10:48.628621",
+            "v": 379.76,
+            "i": 45.98,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "CRITICAL THERMAL SPIKE"
+        }
+    ]
+}

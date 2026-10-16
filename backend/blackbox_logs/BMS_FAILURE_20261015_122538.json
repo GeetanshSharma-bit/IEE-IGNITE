@@ -1,0 +1,1927 @@
+{
+    "ecu": "BMS",
+    "trigger_fault": "BUS UNDERVOLTAGE SAG",
+    "timestamp": "20261015_122538",
+    "telemetry_history": [
+        {
+            "time": "2026-10-15T12:23:36.310308",
+            "v": 354.23,
+            "i": 45.71,
+            "t": 94.31,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:36.814400",
+            "v": 354.12,
+            "i": 45.48,
+            "t": 94.4,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:37.324400",
+            "v": 353.82,
+            "i": 45.47,
+            "t": 94.37,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:37.828560",
+            "v": 354.12,
+            "i": 46.44,
+            "t": 94.5,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:38.339100",
+            "v": 353.94,
+            "i": 45.4,
+            "t": 94.42,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:38.875147",
+            "v": 354.29,
+            "i": 46.12,
+            "t": 94.44,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:39.385986",
+            "v": 353.84,
+            "i": 45.46,
+            "t": 94.59,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:39.891344",
+            "v": 353.83,
+            "i": 46.05,
+            "t": 94.58,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:40.394878",
+            "v": 353.73,
+            "i": 45.86,
+            "t": 94.68,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:40.904263",
+            "v": 353.8,
+            "i": 45.94,
+            "t": 94.59,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:41.413651",
+            "v": 354.27,
+            "i": 46.09,
+            "t": 94.64,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:41.920825",
+            "v": 353.86,
+            "i": 45.98,
+            "t": 94.63,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:42.428859",
+            "v": 353.83,
+            "i": 46.52,
+            "t": 94.74,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:42.938826",
+            "v": 353.76,
+            "i": 45.62,
+            "t": 94.74,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:43.443222",
+            "v": 353.98,
+            "i": 46.03,
+            "t": 94.75,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:43.956621",
+            "v": 354.07,
+            "i": 45.54,
+            "t": 94.8,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:44.466776",
+            "v": 353.85,
+            "i": 46.46,
+            "t": 94.79,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:44.977533",
+            "v": 353.87,
+            "i": 45.69,
+            "t": 94.73,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:45.489992",
+            "v": 354.21,
+            "i": 45.57,
+            "t": 94.85,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:46.002990",
+            "v": 354.26,
+            "i": 46.04,
+            "t": 94.88,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:46.513321",
+            "v": 353.96,
+            "i": 45.83,
+            "t": 94.84,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:47.031373",
+            "v": 354.21,
+            "i": 46.49,
+            "t": 94.9,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:47.548157",
+            "v": 353.75,
+            "i": 45.58,
+            "t": 94.8,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:48.053279",
+            "v": 353.71,
+            "i": 46.47,
+            "t": 94.86,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:48.564580",
+            "v": 354.0,
+            "i": 46.44,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:49.078104",
+            "v": 354.09,
+            "i": 46.06,
+            "t": 94.81,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:49.591689",
+            "v": 354.15,
+            "i": 45.96,
+            "t": 94.87,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:50.105666",
+            "v": 354.24,
+            "i": 46.47,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:50.607186",
+            "v": 354.22,
+            "i": 45.41,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:51.123666",
+            "v": 353.75,
+            "i": 45.63,
+            "t": 94.85,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:51.640236",
+            "v": 353.83,
+            "i": 45.6,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:52.150136",
+            "v": 354.17,
+            "i": 45.93,
+            "t": 94.91,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:52.665744",
+            "v": 354.01,
+            "i": 46.16,
+            "t": 94.86,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:53.178934",
+            "v": 354.24,
+            "i": 46.38,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:53.693895",
+            "v": 354.06,
+            "i": 46.4,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:54.209797",
+            "v": 353.81,
+            "i": 45.59,
+            "t": 94.89,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:54.723916",
+            "v": 353.93,
+            "i": 45.99,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:55.236491",
+            "v": 354.06,
+            "i": 45.44,
+            "t": 94.9,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:55.746163",
+            "v": 353.71,
+            "i": 45.78,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:56.249595",
+            "v": 354.26,
+            "i": 45.91,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:56.755597",
+            "v": 354.18,
+            "i": 46.3,
+            "t": 94.9,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:57.268509",
+            "v": 353.71,
+            "i": 45.63,
+            "t": 94.89,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:57.781012",
+            "v": 353.85,
+            "i": 45.96,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:58.298499",
+            "v": 354.18,
+            "i": 45.42,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:58.803859",
+            "v": 353.8,
+            "i": 46.22,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:59.317205",
+            "v": 354.19,
+            "i": 45.84,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:23:59.830927",
+            "v": 353.75,
+            "i": 45.79,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:00.338594",
+            "v": 354.02,
+            "i": 45.94,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:00.851534",
+            "v": 353.76,
+            "i": 45.47,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:01.365758",
+            "v": 353.76,
+            "i": 46.53,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:01.880138",
+            "v": 353.78,
+            "i": 46.2,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:02.391423",
+            "v": 354.11,
+            "i": 45.88,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:02.903570",
+            "v": 354.27,
+            "i": 46.17,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:03.416892",
+            "v": 353.72,
+            "i": 45.64,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:03.929956",
+            "v": 353.91,
+            "i": 45.95,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:04.435882",
+            "v": 354.1,
+            "i": 46.05,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:04.952074",
+            "v": 354.3,
+            "i": 45.84,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:05.464686",
+            "v": 354.0,
+            "i": 46.01,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:05.980257",
+            "v": 353.95,
+            "i": 45.43,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:06.493974",
+            "v": 354.29,
+            "i": 45.47,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:07.009089",
+            "v": 354.0,
+            "i": 45.67,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:07.524433",
+            "v": 353.96,
+            "i": 45.55,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:08.039276",
+            "v": 353.97,
+            "i": 45.87,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:08.548810",
+            "v": 354.28,
+            "i": 46.6,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:09.065477",
+            "v": 354.17,
+            "i": 46.21,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:09.576879",
+            "v": 353.98,
+            "i": 45.5,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:10.079948",
+            "v": 354.22,
+            "i": 45.93,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:10.593898",
+            "v": 354.22,
+            "i": 46.17,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:11.101594",
+            "v": 354.16,
+            "i": 46.6,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:11.617581",
+            "v": 354.11,
+            "i": 46.56,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:12.129814",
+            "v": 354.15,
+            "i": 45.43,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:12.638212",
+            "v": 354.08,
+            "i": 46.18,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:13.150501",
+            "v": 353.99,
+            "i": 45.79,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:13.666202",
+            "v": 353.75,
+            "i": 46.35,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:14.177685",
+            "v": 354.07,
+            "i": 46.44,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:14.681124",
+            "v": 353.75,
+            "i": 45.43,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:15.196434",
+            "v": 354.27,
+            "i": 45.41,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:15.710257",
+            "v": 354.11,
+            "i": 45.85,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:16.221061",
+            "v": 353.92,
+            "i": 45.69,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:16.730847",
+            "v": 353.83,
+            "i": 46.24,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:17.245620",
+            "v": 354.14,
+            "i": 45.55,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:17.749895",
+            "v": 353.89,
+            "i": 46.51,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:18.252640",
+            "v": 354.24,
+            "i": 45.69,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:18.759716",
+            "v": 354.23,
+            "i": 45.67,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:19.272628",
+            "v": 353.93,
+            "i": 45.8,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:19.775702",
+            "v": 354.1,
+            "i": 46.58,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:20.277531",
+            "v": 353.89,
+            "i": 46.17,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:20.788345",
+            "v": 354.15,
+            "i": 45.41,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:21.296499",
+            "v": 354.19,
+            "i": 45.54,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:21.806564",
+            "v": 354.02,
+            "i": 45.89,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:22.308914",
+            "v": 354.16,
+            "i": 46.36,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:22.815635",
+            "v": 353.76,
+            "i": 45.94,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:23.316339",
+            "v": 353.87,
+            "i": 46.49,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:23.824295",
+            "v": 354.06,
+            "i": 45.46,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:24.332367",
+            "v": 354.29,
+            "i": 45.48,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:24.846685",
+            "v": 353.87,
+            "i": 46.34,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:25.356327",
+            "v": 353.84,
+            "i": 46.46,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:25.868208",
+            "v": 354.04,
+            "i": 45.81,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:26.369256",
+            "v": 354.27,
+            "i": 46.46,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:26.882724",
+            "v": 354.14,
+            "i": 45.96,
+            "t": 95.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:27.384913",
+            "v": 354.16,
+            "i": 46.14,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:27.885303",
+            "v": 353.82,
+            "i": 46.43,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:28.393702",
+            "v": 353.87,
+            "i": 46.54,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:28.902308",
+            "v": 353.89,
+            "i": 46.04,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:29.405492",
+            "v": 354.3,
+            "i": 46.22,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:29.914794",
+            "v": 353.84,
+            "i": 45.58,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:30.416264",
+            "v": 353.86,
+            "i": 45.86,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:30.929392",
+            "v": 353.83,
+            "i": 46.55,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:31.437706",
+            "v": 354.14,
+            "i": 46.23,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:31.943905",
+            "v": 354.08,
+            "i": 46.08,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:32.457111",
+            "v": 353.89,
+            "i": 45.53,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:32.961676",
+            "v": 353.89,
+            "i": 45.71,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:33.476512",
+            "v": 354.05,
+            "i": 46.1,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:33.990824",
+            "v": 354.24,
+            "i": 46.21,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:34.505953",
+            "v": 354.0,
+            "i": 45.85,
+            "t": 95.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:35.015781",
+            "v": 353.78,
+            "i": 45.4,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:35.527958",
+            "v": 354.3,
+            "i": 46.09,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:36.041228",
+            "v": 354.12,
+            "i": 46.54,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:36.555143",
+            "v": 353.98,
+            "i": 46.35,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:37.068996",
+            "v": 353.81,
+            "i": 45.49,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:37.569801",
+            "v": 353.99,
+            "i": 45.49,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:38.071276",
+            "v": 354.02,
+            "i": 45.44,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:38.588239",
+            "v": 353.9,
+            "i": 45.8,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:39.100410",
+            "v": 354.27,
+            "i": 45.51,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:39.612594",
+            "v": 354.19,
+            "i": 45.56,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:40.124040",
+            "v": 354.28,
+            "i": 46.47,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:40.636147",
+            "v": 353.91,
+            "i": 45.61,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:41.150517",
+            "v": 353.95,
+            "i": 45.86,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:41.661800",
+            "v": 353.93,
+            "i": 46.2,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:42.167820",
+            "v": 354.29,
+            "i": 45.96,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:42.679169",
+            "v": 354.03,
+            "i": 45.46,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:43.194174",
+            "v": 354.07,
+            "i": 45.73,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:43.706760",
+            "v": 353.99,
+            "i": 45.8,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:44.224195",
+            "v": 354.02,
+            "i": 45.84,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:44.732488",
+            "v": 354.28,
+            "i": 45.64,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:45.247319",
+            "v": 353.81,
+            "i": 46.38,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:45.761200",
+            "v": 354.07,
+            "i": 46.17,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:46.273947",
+            "v": 353.93,
+            "i": 46.01,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:46.785442",
+            "v": 353.73,
+            "i": 45.89,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:47.298271",
+            "v": 353.83,
+            "i": 46.13,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:47.813281",
+            "v": 353.91,
+            "i": 45.63,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:48.324367",
+            "v": 353.83,
+            "i": 45.54,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:48.836023",
+            "v": 353.77,
+            "i": 45.82,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:49.348044",
+            "v": 354.13,
+            "i": 46.2,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:49.865812",
+            "v": 354.27,
+            "i": 46.37,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:50.382452",
+            "v": 354.06,
+            "i": 46.03,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:50.890681",
+            "v": 354.22,
+            "i": 46.28,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:51.405732",
+            "v": 353.8,
+            "i": 46.25,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:51.936210",
+            "v": 354.03,
+            "i": 45.73,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:52.449401",
+            "v": 354.0,
+            "i": 46.08,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:52.961783",
+            "v": 354.22,
+            "i": 46.43,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:53.474855",
+            "v": 354.08,
+            "i": 45.86,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:53.986842",
+            "v": 354.02,
+            "i": 46.31,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:54.498496",
+            "v": 353.88,
+            "i": 45.45,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:55.012902",
+            "v": 354.26,
+            "i": 45.71,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:55.525292",
+            "v": 353.85,
+            "i": 45.58,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:56.037750",
+            "v": 354.01,
+            "i": 46.53,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:56.553002",
+            "v": 353.78,
+            "i": 46.49,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:57.066404",
+            "v": 354.24,
+            "i": 46.07,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:57.580039",
+            "v": 353.8,
+            "i": 46.32,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:58.095341",
+            "v": 354.13,
+            "i": 46.23,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:58.601746",
+            "v": 354.27,
+            "i": 45.99,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:59.102282",
+            "v": 354.05,
+            "i": 46.32,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:24:59.614866",
+            "v": 354.3,
+            "i": 46.1,
+            "t": 95.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:00.127388",
+            "v": 353.78,
+            "i": 46.24,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:00.638286",
+            "v": 354.25,
+            "i": 46.18,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:01.150585",
+            "v": 354.27,
+            "i": 46.12,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:01.652973",
+            "v": 354.24,
+            "i": 45.62,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:02.169262",
+            "v": 354.16,
+            "i": 46.48,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:02.679793",
+            "v": 353.98,
+            "i": 45.8,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:03.194049",
+            "v": 353.91,
+            "i": 45.41,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:03.705317",
+            "v": 354.22,
+            "i": 45.72,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:04.219456",
+            "v": 354.0,
+            "i": 46.47,
+            "t": 95.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:04.730004",
+            "v": 354.01,
+            "i": 46.06,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:05.243741",
+            "v": 354.1,
+            "i": 46.4,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:05.756519",
+            "v": 353.91,
+            "i": 45.76,
+            "t": 95.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:06.261748",
+            "v": 353.9,
+            "i": 45.62,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:06.769767",
+            "v": 353.71,
+            "i": 46.54,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:07.271112",
+            "v": 353.89,
+            "i": 46.53,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:07.783932",
+            "v": 354.19,
+            "i": 45.82,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:08.297902",
+            "v": 353.9,
+            "i": 46.19,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:08.813121",
+            "v": 353.24,
+            "i": 45.94,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:09.326888",
+            "v": 353.09,
+            "i": 45.6,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:09.842715",
+            "v": 352.64,
+            "i": 46.55,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:10.352728",
+            "v": 352.56,
+            "i": 46.16,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:10.867168",
+            "v": 352.27,
+            "i": 45.73,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:11.380393",
+            "v": 352.25,
+            "i": 45.42,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:11.896688",
+            "v": 352.39,
+            "i": 46.22,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:12.409663",
+            "v": 352.38,
+            "i": 45.58,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:12.920390",
+            "v": 352.33,
+            "i": 45.55,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:13.434404",
+            "v": 352.1,
+            "i": 45.96,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:13.939223",
+            "v": 352.23,
+            "i": 45.69,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:14.453049",
+            "v": 352.13,
+            "i": 45.41,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:14.965405",
+            "v": 352.31,
+            "i": 45.62,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:15.476980",
+            "v": 352.36,
+            "i": 45.58,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:15.990451",
+            "v": 352.19,
+            "i": 46.57,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:16.504673",
+            "v": 351.79,
+            "i": 45.74,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:17.020042",
+            "v": 351.94,
+            "i": 45.76,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:17.534355",
+            "v": 351.77,
+            "i": 45.63,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:18.035740",
+            "v": 351.75,
+            "i": 46.54,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:18.547651",
+            "v": 351.75,
+            "i": 46.55,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:19.064075",
+            "v": 352.1,
+            "i": 45.58,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:19.566389",
+            "v": 352.25,
+            "i": 45.68,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:20.078111",
+            "v": 352.05,
+            "i": 45.46,
+            "t": 94.93,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:20.592900",
+            "v": 351.72,
+            "i": 46.57,
+            "t": 95.05,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:21.105525",
+            "v": 351.79,
+            "i": 46.09,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:21.618450",
+            "v": 351.76,
+            "i": 45.84,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:22.130662",
+            "v": 352.23,
+            "i": 45.49,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:22.646640",
+            "v": 352.25,
+            "i": 45.53,
+            "t": 94.97,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:23.163449",
+            "v": 352.06,
+            "i": 46.31,
+            "t": 95.08,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:23.668582",
+            "v": 352.03,
+            "i": 45.82,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:24.170833",
+            "v": 352.27,
+            "i": 45.41,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:24.686839",
+            "v": 352.03,
+            "i": 46.28,
+            "t": 94.92,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:25.201668",
+            "v": 352.27,
+            "i": 46.17,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:25.717431",
+            "v": 351.93,
+            "i": 46.26,
+            "t": 94.96,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:26.231265",
+            "v": 351.75,
+            "i": 45.92,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:26.734427",
+            "v": 352.07,
+            "i": 46.55,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:27.245623",
+            "v": 352.27,
+            "i": 45.74,
+            "t": 94.98,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:27.754272",
+            "v": 351.96,
+            "i": 46.01,
+            "t": 95.06,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:28.262994",
+            "v": 351.87,
+            "i": 45.72,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:28.764048",
+            "v": 351.91,
+            "i": 46.38,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:29.277897",
+            "v": 352.01,
+            "i": 45.89,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:29.793869",
+            "v": 351.87,
+            "i": 45.7,
+            "t": 95.0,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:30.309846",
+            "v": 351.81,
+            "i": 46.06,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:30.822741",
+            "v": 351.91,
+            "i": 45.87,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:31.336755",
+            "v": 352.01,
+            "i": 45.45,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:31.849341",
+            "v": 352.27,
+            "i": 46.6,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:32.365164",
+            "v": 351.88,
+            "i": 45.65,
+            "t": 95.07,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:32.878984",
+            "v": 352.02,
+            "i": 46.45,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:33.391311",
+            "v": 352.16,
+            "i": 45.84,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:33.908640",
+            "v": 351.93,
+            "i": 45.4,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:34.422905",
+            "v": 352.26,
+            "i": 45.94,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:34.939458",
+            "v": 351.73,
+            "i": 45.89,
+            "t": 94.95,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:35.456837",
+            "v": 351.77,
+            "i": 45.89,
+            "t": 94.94,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:35.971322",
+            "v": 352.02,
+            "i": 46.34,
+            "t": 95.01,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:36.485280",
+            "v": 352.16,
+            "i": 46.17,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:37.000292",
+            "v": 352.05,
+            "i": 46.41,
+            "t": 95.04,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:37.515185",
+            "v": 351.83,
+            "i": 46.26,
+            "t": 94.99,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:38.028923",
+            "v": 352.13,
+            "i": 46.25,
+            "t": 95.02,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        },
+        {
+            "time": "2026-10-15T12:25:38.542944",
+            "v": 351.93,
+            "i": 46.13,
+            "t": 95.03,
+            "anomaly_pct": 100.0,
+            "fault_mode": "BUS UNDERVOLTAGE SAG"
+        }
+    ]
+}
